@@ -1,0 +1,4 @@
+const dialog=document.querySelector('dialog'),picture=dialog.querySelector('.original'),status=dialog.querySelector('.status');let previous;
+picture.onload=()=>{status.hidden=true;picture.hidden=false};picture.onerror=()=>{status.hidden=false;status.textContent='No fue posible cargar la imagen. Intenta de nuevo.';picture.hidden=true};
+document.querySelectorAll('.mosaic-trigger').forEach(button=>button.addEventListener('click',()=>{previous=button;status.hidden=false;status.textContent='Cargando imagen…';picture.hidden=true;picture.alt=button.dataset.title;dialog.querySelector('.caption').textContent=button.dataset.title;picture.src=button.dataset.original;dialog.showModal();document.body.style.overflow='hidden'}));
+dialog.querySelector('.close').addEventListener('click',()=>dialog.close());dialog.addEventListener('close',()=>{document.body.style.overflow='';previous?.focus()});

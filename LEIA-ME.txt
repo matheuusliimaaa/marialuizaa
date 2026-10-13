@@ -1,0 +1,42 @@
+PORTFÓLIO — MOSAICOS COM 4 POSES
+
+1. Extraia o ZIP. Não execute dentro do arquivo compactado.
+2. Abra index.html para ver o site local.
+3. Abra ABRIR-PAINEL.bat no Windows. O painel usa Python 3 e Tkinter, sem bibliotecas extras. Se você já executa build.py, provavelmente já tem Python instalado.
+4. Clique Novo ensaio, escreva o nome e a descrição, marque as idades e escolha as duas imagens.
+5. Clique Salvar ensaio e atualizar site. Depois clique Abrir site.
+6. Para editar: selecione um ensaio na lista, altere os dados e salve.
+
+IMAGENS
+O exemplo tem 1024 x 1536 pixels (proporção 2:3).
+A capa fornecida tem 600 x 900 pixels. Ambas mostram as quatro poses completas.
+Use sua original em qualidade máxima e uma capa menor na mesma proporção.
+O painel aceita PNG, JPG, JPEG e WEBP. Ele copia as imagens; não reduz nem modifica sua original. Escolha a capa já reduzida.
+O original é carregado somente ao clicar na capa. Pode ser fechado com X ou Esc.
+
+PUBLICAR NO SEU GITHUB / VERCEL
+Faça um backup da pasta atual antes de trocar a estrutura.
+Coloque o conteúdo desta pasta na raiz do repositório clonado, onde fica index.html. Não coloque tudo dentro de uma pasta extra.
+Remova as antigas páginas dos temas (hada.html, sirena.html, principe.html) e os arquivos do antigo build. A nova versão tem só index.html e o index.html de cada uma das quatro idades.
+No GitHub Desktop, confira as mudanças, faça Commit e depois Push origin.
+Se a Vercel está configurada para publicar esse repositório e essa branch automaticamente, a atualização será implantada após o Push.
+Cadastre sempre na mesma pasta do repositório para o GitHub Desktop detectar as mudanças.
+Não há publicação automática pelo painel nem necessidade de configurar uma conta ou senha nele: ele é um programa local.
+
+CONTEÚDO
+As quatro capas de idade do ZIP original foram preservadas.
+O tema Dinosaurio foi cadastrado em Niño, hasta 5 meses como exemplo.
+As outras idades exibem uma mensagem até você cadastrar ensaios.
+Os temas antigos não tinham fotos no ZIP recebido; nenhuma galeria de cinco fotos foi incluída nesta versão.
+ensaios.json guarda seus cadastros. Mantenha esse arquivo e a pasta img junto com o site.
+Imagens de versões anteriores são mantidas para evitar apagar arquivos por engano; remover um ensaio remove sua exibição, não os arquivos de imagem.
+
+VERIFICAÇÃO
+Foi verificada a geração das cinco páginas, os caminhos das imagens e o cadastro/edição/remoção sem interface.
+A janela do painel e o navegador no Windows precisam ser conferidos no seu computador.
+
+ATUALIZAÇÃO SOBRE O REPOSITÓRIO EXISTENTE
+As quatro capas foram copiadas do arquivo marialuizaa.zip sem modificação.
+Copie o conteúdo desta pasta para a pasta local marialuizaa já clonada, mantendo a pasta .git existente no seu computador.
+Não use Add/Create repository: continue no repositório já conectado.
+Remova as páginas antigas hada.html, sirena.html e principe.html dentro das quatro pastas de idade.
