@@ -1,1 +1,22 @@
-[{"id":"dinosaurio","nome":"Dinosaurio","descricao":"Cuatro poses llenas de ternura, con un dinosaurio de peluche y suaves tonos neutros.","idades":["nino-hasta-5"],"capa":"img/ensaios/dinosaurio/capa.jpg","original":"img/ensaios/dinosaurio/original.png"}]
+[
+  {
+    "id": "dinosaurio",
+    "nome": "Dinosaurio",
+    "descricao": "Cuatro poses llenas de ternura, con un dinosaurio de peluche y suaves tonos neutros.",
+    "idades": [
+      "nino-hasta-5"
+    ],
+    "capa": "img/ensaios/dinosaurio/capa.jpg",
+    "original": "img/ensaios/dinosaurio/original.png"
+  },
+  {
+    "id": "00f9d620660b48ef83c3b43c8b5a1179",
+    "nome": "niño agricultor variación 3",
+    "descricao": "Ensaio newborn com tema campestre em tons terrosos, destacando o bebê em um caixote de madeira com manta felpuda e palha.",
+    "idades": [
+      "nino-hasta-5"
+    ],
+    "capa": "img/ensaios/9cdc296a7b93406faeafa0d7969f4cc8/capa.jpg",
+    "original": "img/ensaios/9cdc296a7b93406faeafa0d7969f4cc8/original.jpg"
+  }
+]
