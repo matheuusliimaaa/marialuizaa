@@ -11,12 +11,92 @@
   },
   {
     "id": "00f9d620660b48ef83c3b43c8b5a1179",
-    "nome": "Niño Agricultor – Variación 3",
-    "descricao": "Sesión recién nacido estilo granjerito en caja de madera con paja, overol y un borreguito.",
+    "nome": "Niño Aviador - Variación 2",
+    "descricao": "Tierno recién nacido con gorrito de aviador soñando entre estrellas y una luna brillante.",
     "idades": [
       "nino-hasta-5"
     ],
-    "capa": "img/ensaios/19ccd2c4092f4b7f81d806433dbd5ebd/capa.jpg",
-    "original": "img/ensaios/19ccd2c4092f4b7f81d806433dbd5ebd/original.jpg"
+    "capa": "img/ensaios/3a7397bd56b64269ac66971d49a0edf4/capa.jpg",
+    "original": "img/ensaios/3a7397bd56b64269ac66971d49a0edf4/original.jpg"
+  },
+  {
+    "id": "4392cab9eef145e48c723bdfb432fa24",
+    "nome": "Niño Aviador - Variación 1",
+    "descricao": "Tierno bebé aviador durmiendo entre nubes y avioncitos de madera. Sesión mágica y vintage.",
+    "idades": [
+      "nino-hasta-5"
+    ],
+    "capa": "img/ensaios/3c72efb9126d4dc58c3dad71ba0405ef/capa.jpg",
+    "original": "img/ensaios/3c72efb9126d4dc58c3dad71ba0405ef/original.jpg"
+  },
+  {
+    "id": "e1d85fb1d8394f18b167a1161a75bdf5",
+    "nome": "Niño Aviador - Variación 3",
+    "descricao": "recién nacido con gorro de aviador y tierno osito en tonos café cálidos.",
+    "idades": [
+      "nino-hasta-5"
+    ],
+    "capa": "img/ensaios/ddec6be158ab47a68d4f78ab00405d18/capa.jpg",
+    "original": "img/ensaios/ddec6be158ab47a68d4f78ab00405d18/original.jpg"
+  },
+  {
+    "id": "c734fd2e31f547faaf1684db922a9e9a",
+    "nome": "Ninõ Dibujo - Variación 2",
+    "descricao": "Recién nacido durmiendo en un cubo rústico con manta roja y un pequeño sombrero de paja.",
+    "idades": [
+      "nino-hasta-5"
+    ],
+    "capa": "img/ensaios/6c34a432ddee46f08872f9ca1c263c88/capa.jpg",
+    "original": "img/ensaios/6c34a432ddee46f08872f9ca1c263c88/original.jpg"
+  },
+  {
+    "id": "a40f7c5518c640dd81ccc5c09478c77f",
+    "nome": "Niño Superhéroe - Variación 1",
+    "descricao": "Tierno recién nacido con traje de héroe y muñeco tejido, descansando en canasta afelpada.",
+    "idades": [
+      "nino-hasta-5"
+    ],
+    "capa": "img/ensaios/75984b7db98447eeaf0d8fd84149dce8/capa.jpg",
+    "original": "img/ensaios/75984b7db98447eeaf0d8fd84149dce8/original.jpg"
+  },
+  {
+    "id": "85a71ad0ef3349e3bef570108daa8e00",
+    "nome": "Niño Dinosaurio - Variación 2",
+    "descricao": "Tierno bebé durmiendo con su gran dinosaurio gris en un ambiente suave y lleno de paz.",
+    "idades": [
+      "nino-hasta-5"
+    ],
+    "capa": "img/ensaios/1e21a051ecf441cbb7eb9bb3882e8a2c/capa.png",
+    "original": "img/ensaios/1e21a051ecf441cbb7eb9bb3882e8a2c/original.png"
+  },
+  {
+    "id": "55ad459cda4545c98aad41b329be44c3",
+    "nome": "Niño Dinosaurio - Variación 1",
+    "descricao": "Sesión newborn temática de dinosaurios en tonos verde menta, con gorrito tejido con crestas, peluches y un lindo pastel.",
+    "idades": [
+      "nino-hasta-5"
+    ],
+    "capa": "img/ensaios/3470fbad3f3d4233b2af918022ee2c12/capa.png",
+    "original": "img/ensaios/3470fbad3f3d4233b2af918022ee2c12/original.png"
+  },
+  {
+    "id": "5199bb7a6dce4b73a1b3834a7430913b",
+    "nome": "Niño Agricultor Variación 2",
+    "descricao": "Sesión newborn temática de granjerito: boina tejida, tonos tierra y un tractor de juguete.",
+    "idades": [
+      "nino-hasta-5"
+    ],
+    "capa": "img/ensaios/907bc2d5c199494c82c68197b3fffa43/capa.jpg",
+    "original": "img/ensaios/907bc2d5c199494c82c68197b3fffa43/original.jpg"
+  },
+  {
+    "id": "89cdce9448f14a0a81efd5a15a89fa92",
+    "nome": "Niño Príncipe - Variación 3",
+    "descricao": "Tierno ensayo fotográfico newborn de un bebé con corona dorada y cobija azul real.",
+    "idades": [
+      "nino-hasta-5"
+    ],
+    "capa": "img/ensaios/0d68bea3a25842eab800a461ad961570/capa.jpg",
+    "original": "img/ensaios/0d68bea3a25842eab800a461ad961570/original.jpg"
   }
 ]
