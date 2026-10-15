@@ -1,7 +1,7 @@
 from pathlib import Path
 import json, html
 ROOT=Path(__file__).resolve().parent
-EDADES=[('nina-hasta-5','Niña, hasta 5 meses'),('nino-hasta-5','Niño, hasta 5 meses'),('nina-despues-5','Niña, después de 5 meses'),('nino-despues-5','Niño, después de 5 meses')]
+EDADES=[('nina-hasta-5','Niña, hasta 5 meses'),('nino-hasta-5','Niño, hasta 5 meses')]
 def esc(x):return html.escape(str(x),quote=True)
 def page(title,body,up=''):
  return f'''<!doctype html><html lang="es-MX"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · Pequeños Retratos</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500&amp;family=Jost:wght@300;400;500&amp;display=swap"><link rel="stylesheet" href="{up}css/style.css"><link rel="stylesheet" href="{up}css/mosaicos.css"><script src="{up}js/mosaicos.js" defer></script></head><body><header class="site-header wrap"><a class="brand" href="{up}index.html">Pequeños Retratos</a></header><main class="wrap">{body}</main><footer>Portafolio de sesiones newborn · hecho con cariño</footer><dialog class="mosaic-dialog" aria-label="Sesión ampliada"><button class="close" aria-label="Cerrar">×</button><p class="status" role="status">Cargando imagen…</p><img class="original" alt=""><p class="caption"></p></dialog></body></html>'''
