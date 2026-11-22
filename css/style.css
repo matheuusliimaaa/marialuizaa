@@ -380,3 +380,68 @@ footer{
 .age-card:hover .age-media img{transform:scale(1.035)}
 @media(max-width:700px){.age-card .age-body{padding:18px 16px 22px}.age-card .age-body::after{width:100%;min-width:0}}
 @media(prefers-reduced-motion:reduce){.age-card,.age-card .age-body::after,.age-media img{transition:none}}
+
+
+/* ---------- Identidad Maria Luiza: portada cálida y delicada ---------- */
+.hero-maria{
+  position:relative;
+  isolation:isolate;
+  max-width:900px;
+  margin:34px auto 12px;
+  padding:clamp(42px,7vw,76px) 28px clamp(38px,6vw,64px);
+  overflow:hidden;
+  border:1px solid rgba(177,133,119,.2);
+  border-radius:30px;
+  background:
+    radial-gradient(ellipse at 8% 12%,rgba(255,255,255,.9),transparent 38%),
+    radial-gradient(ellipse at 92% 88%,rgba(232,196,190,.34),transparent 42%),
+    linear-gradient(135deg,#fffaf7 0%,#f8e9e5 52%,#f5e8df 100%);
+  box-shadow:0 12px 34px rgba(111,75,68,.07);
+}
+.hero-maria::before,.hero-maria::after{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  width:170px;
+  height:170px;
+  border:1px solid rgba(183,145,112,.24);
+  border-radius:50%;
+  pointer-events:none;
+}
+.hero-maria::before{top:-112px;left:-64px;box-shadow:0 0 0 12px rgba(255,255,255,.18),0 0 0 25px rgba(183,145,112,.06)}
+.hero-maria::after{right:-100px;bottom:-118px;width:230px;height:230px}
+.hero-kicker{
+  display:inline-block;
+  margin-bottom:18px;
+  color:#a56f70;
+  font-size:.72rem;
+  font-weight:500;
+  letter-spacing:.19em;
+}
+.hero-maria h1{
+  max-width:17ch;
+  color:#674b4a;
+  font-size:clamp(2.15rem,5.3vw,3.55rem);
+  line-height:1.08;
+}
+.hero-maria p{
+  max-width:43ch;
+  margin:18px auto 0;
+  color:#806d68;
+  font-size:1.05rem;
+}
+.hero-ornament{
+  display:block;
+  margin:20px auto 0;
+  color:#c5a06e;
+  font-size:1.35rem;
+  line-height:1;
+}
+@media(max-width:700px){
+  .hero-maria{margin:24px auto 8px;padding:42px 20px 36px;border-radius:22px}
+  .hero-kicker{font-size:.64rem;letter-spacing:.14em}
+  .hero-maria p{font-size:.98rem}
+}
+@media(prefers-reduced-motion:reduce){
+  .hero-maria{scroll-behavior:auto}
+}
