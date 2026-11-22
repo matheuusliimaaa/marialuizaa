@@ -35,7 +35,7 @@
   bar.querySelector('.selection-clear').addEventListener('click', () => { selected = []; save(); sync(); });
   bar.querySelector('.selection-send').addEventListener('click', () => {
     if (!selected.length) return;
-    const lines = selected.map((item, index) => (index + 1) + '. ' + item.name).join('\\n\\n');
+    const lines = selected.map((item, index) => (index + 1) + '. ' + item.name).join('\n\n');
     const message = lines;
     window.open('https://wa.me/?text=' + encodeURIComponent(message), '_blank', 'noopener');
   });
